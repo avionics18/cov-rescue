@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cov Rescue</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- DataTables CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/v/bs4/dt-1.10.24/datatables.min.css"
+    />
+  </head>
+  <body>
+
+
+    <div class="app bg-light py-md-5 py-3">
+      <div class="container">
+        <div class="bg-white rounded-lg shadow overflow-hidden">
+          <header class="bg-info text-light py-3">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                  <img
+                    class="pl-lg-0 pl-3"
+                    src="assets/imgs/logo-banner.png"
+                    alt="cov rescue logo"
+                    width="160"
+                  />
+                </div>
+              </div>
+            </div>
+          </header>
+          <!-- Header banner -->
+
+
+          <div id="navbar" class="bg-dark">
+            <div class="row">
+              <div class="col-lg-10 offset-lg-1">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <button class="active">Home</button>
+                  </li>
+                  <li class="nav-item">
+                    <button>About</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- #navbar -->          
+
+
+          <div class="app-body position-relative bg-white py-5 px-lg-0 px-3">
+            <div class="row">
+              <div class="col-lg-10 offset-lg-1">
+                <form id="searchbar" class="mb-5">
+                  <div class="input-group">
+                    <select
+                      class="custom-select"
+                      id="selectStates"
+                      name="selectInp"
+                    ></select>
+                    <div class="input-group-append">
+                      <button class="btn btn-info px-md-5 px-2" type="submit">
+                        Search <i class="fa fa-search"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+                <!-- #searchbar -->
+                <div
+                  id="covid-tracker"
+                  class="mb-4 p-md-4 p-3 bg-light border rounded-lg shadow-sm position-relative"
+                >
+                  <p class="m-0 p-2 text-secondary text-center">
+                    <b>Select</b> a state from the dropdown list ...
+                  </p>
+                </div>
+                <!-- #covid-tracker -->
+                <div
+                  id="covid-resources"
+                  class="p-md-4 py-4 px-0 bg-white border border-info rounded-lg shadow-sm position-relative"
+                >
+                  <div class="p-3">
+                    <h6 class="small text-uppercase">
+                      <b>How to use this website:</b>
+                    </h6>
+                    <hr />
+                    <ul class="small m-0 text-secondary list-unstyled">
+                      <li>
+                        1. Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit.
+                      </li>
+                      <li>
+                        2. Lorem ipsum, dolor sit amet, consectetur adipisicing.
+                      </li>
+                      <li>
+                        3. Lorem, ipsum dolor sit amet consectetur, adipisicing
+                        elit. Illum rem, veritatis accusamus.
+                      </li>
+                      <li>
+                        4. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Accusantium.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- #covid-resources -->
+              </div>
+            </div>
+            <!-- row -->
+
+            <!-- about Page -->
+            <div id="abt-page" class="px-md-5 px-0">
+              <div class="container">
+                <h2 class="text-secondary font-weight-bold">ABOUT <span class="text-info">US</span></h2>
+                <hr>
+                <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Unde sint reiciendis accusamus in fugiat esse magni ratione pariatur. Cupiditate vero rerum, quod, quibusdam modi nostrum facere! Voluptas eaque esse veniam nihil est, ut, iure ea, praesentium fugiat quia explicabo voluptatum error. Ipsam ducimus at officiis earum debitis doloribus accusantium, ullam.</p>
+                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Fuga obcaecati non consectetur, deserunt sint in ipsam, tenetur. Necessitatibus mollitia voluptates ipsam sapiente ullam eligendi! Iusto voluptate, praesentium sapiente, nam animi aut, numquam quae necessitatibus quis eaque deleniti culpa rem natus, fuga libero. Maiores fugit quidem natus minima eius numquam, amet expedita sunt provident facere, ratione excepturi est officiis architecto dicta ullam corrupti voluptatem, possimus placeat itaque sapiente. Laudantium exercitationem eius fuga similique id, deleniti autem magnam blanditiis reprehenderit quisquam expedita.</p>
+                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Fuga obcaecati non consectetur, deserunt sint in ipsam, tenetur. Necessitatibus mollitia voluptates ipsam sapiente ullam eligendi! Iusto voluptate, praesentium sapiente, nam animi aut, numquam quae necessitatibus quis eaque deleniti culpa rem natus, fuga libero. Maiores fugit quidem natus minima eius numquam, amet expedita sunt provident facere, ratione excepturi est officiis architecto dicta ullam corrupti voluptatem, possimus placeat itaque sapiente. Laudantium exercitationem eius fuga similique id, deleniti autem magnam blanditiis reprehenderit quisquam expedita.</p>
+                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Fuga obcaecati non consectetur, deserunt sint in ipsam, tenetur. Necessitatibus mollitia voluptates ipsam sapiente ullam eligendi! Iusto voluptate, praesentium sapiente, nam animi aut, numquam quae necessitatibus quis eaque deleniti culpa rem natus, fuga libero. Maiores fugit quidem natus minima eius numquam, amet expedita sunt provident facere, ratione excepturi est officiis architecto dicta ullam corrupti voluptatem, possimus placeat itaque sapiente. Laudantium exercitationem eius fuga similique id, deleniti autem magnam blanditiis reprehenderit quisquam expedita.</p>
+                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Fuga obcaecati non consectetur, deserunt sint in ipsam, tenetur. Necessitatibus mollitia voluptates ipsam sapiente ullam eligendi! Iusto voluptate, praesentium sapiente, nam animi aut, numquam quae necessitatibus quis eaque deleniti culpa rem natus, fuga libero. Maiores fugit quidem natus minima eius numquam, amet expedita sunt provident facere, ratione excepturi est officiis architecto dicta ullam corrupti voluptatem, possimus placeat itaque sapiente. Laudantium exercitationem eius fuga similique id, deleniti autem magnam blanditiis reprehenderit quisquam expedita.</p>
+              </div>
+            </div>
+            <!-- about Page -->
+
+          </div>
+          <!-- app-body -->
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark py-4">
+      <div class="container">
+        <p class="m-0 text-center text-secondary small">
+          Copyright &copy; 2021 | <b><i>COV RESCUE</i></b>
+        </p>
+      </div>
+    </footer>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- DataTable JS -->
+    <script src="https://cdn.datatables.net/v/bs4/dt-1.10.24/datatables.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

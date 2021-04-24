@@ -1,0 +1,346 @@
+{
+  "data": {
+    "Jharkhand": [
+      {
+        "city": "Ranchi",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91-8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Jamshedpur",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Bokaro",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Dhanbad",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "West Singhbhum",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "East Singhbhum",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Ranchi",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91-8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Jamshedpur",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Bokaro",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Dhanbad",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "West Singhbhum",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "East Singhbhum",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Ranchi",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91-8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Jamshedpur",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Bokaro",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Dhanbad",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "West Singhbhum",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "East Singhbhum",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Ranchi",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91-8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Jamshedpur",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Bokaro",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Dhanbad",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "West Singhbhum",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "East Singhbhum",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Ranchi",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91-8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Jamshedpur",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Bokaro",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Dhanbad",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "West Singhbhum",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "East Singhbhum",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      }
+    ],
+    "Andhra Pradesh": [
+      {
+        "city": "Ranchi",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Jamshedpur",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Bokaro",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Dhanbad",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "West Singhbhum",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "East Singhbhum",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      }
+    ],
+    "Delhi": [
+      {
+        "city": "Ranchi",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Jamshedpur",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Bokaro",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "Dhanbad",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "West Singhbhum",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      },
+      {
+        "city": "East Singhbhum",
+        "hospital_beds": "SR Memorial Hospital",
+        "oxygen": "Anush Aswani : +91 8987516545",
+        "remedesivir_tocilizum": "Remedesivir Injection, Bhopal",
+        "plasma": "Hamida Stores, near bus stand, Dawa Baz - 843111",
+        "sources": "facebook, instagram, twitter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+Todos
+======
+
+1. logo R [done]
+2. style the covid tracker in figma first [done]
+  - heading text [done]
+  - number seperator - .toLocaleString() [done]
+
+4. about us page. [done]
+3. prepare the covidResource.json data.
+
+
+
+Run The Server:
+===============
+
+browser-sync start -s -f "*.html, assets/css/style.css, assets/js/main.js, data/covidResource.json"

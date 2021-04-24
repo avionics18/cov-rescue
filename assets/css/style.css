@@ -1,0 +1,74 @@
+.rounded-xl{
+  border-radius: 10px;
+}
+.shadow-sm-dark{
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+
+/*Navbar*/
+#navbar button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #b5b5b5;
+  padding: 10px 20px 6px 20px;
+  text-transform: uppercase;
+  font-weight: light;
+  border-bottom: 5px solid transparent;
+  transition: 0.25s;
+}
+#navbar button:hover,
+#navbar button.active{
+  color: #2ce2ff;
+  border-bottom-color: #2ce2ff;
+  background: #2a3035;
+}
+/*about page*/
+#abt-page{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 50px 0;
+  background-color: #fff;
+  z-index: 500;
+}
+
+
+/*Covid Tracker*/
+.heading{
+  top: 0;
+  left: 0;
+  z-index: 150;
+}
+.heading .heading-text{
+  margin: 0;
+  background: #17a2b8;
+  color: #dffbff;
+  border-radius: 0 0 6px 6px;
+}
+
+
+/*DataTables*/
+.app-body .dataTables_wrapper{
+  padding-top: 40px;
+}
+table tbody tr td:first-child{
+  font-weight: bold;
+  color: #555;
+}
+.page-item.active .page-link{
+  background-color: var(--info);
+  border-color: var(--info);
+}
+.page-link{
+  color: #128294;
+}
+.page-link:hover{
+  color: #0c5663;
+}
