@@ -1,3 +1,3 @@
 # COV RESCUE APP
 
-Crowdsourced data for COVID-19 resources.
+Crowdsourced spreadsheet with information on oxygen, plasma, Remdesivir, hospitals, consultations, ambulances, meals and RT-PCR.
