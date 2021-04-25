@@ -1,42 +1,75 @@
+/* ------ Utilities -------*/
 .rounded-xl{
   border-radius: 10px;
 }
 .shadow-sm-dark{
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
+.ff-serif{
+  font-family: serif;
+}
+/* ---------  DOPE Loading Animation ---------*/
+/* wrap divs inside of this if you want */
+/* them to load into the page slowly */
+.wrapper{
+  opacity: 0;
+  animation: fullView 1.0s forwards linear;
+}
+@keyframes fullView{
+  100%{
+    opacity: 1;
+  }
+}
+/* .animate class to give loading animation */
+.animate {
+  animation : shimmer 2s infinite linear;
+  background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+  background-size: 1000px 100%;
+}
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
 
 
+
+/* =============== CUSTOM CSS ===============*/
 
 /*Navbar*/
-#navbar button{
+#navbar .nav-link{
   background-color: transparent;
   border: none;
   outline: none;
   color: #b5b5b5;
-  padding: 10px 20px 6px 20px;
+  padding: 10px 20px 8px 20px;
   text-transform: uppercase;
   font-weight: light;
   border-bottom: 5px solid transparent;
   transition: 0.25s;
 }
-#navbar button:hover,
-#navbar button.active{
+#navbar .nav-link:hover{
+  color: #fff;
+  border-bottom-color: #656f79;
+  background: #3c434a;
+}
+#navbar .nav-link.active{
   color: #2ce2ff;
   border-bottom-color: #2ce2ff;
-  background: #2a3035;
+  background: #3c434a;
 }
-/*about page*/
-#abt-page{
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  padding: 50px 0;
-  background-color: #fff;
-  z-index: 500;
+
+@media (max-width: 425px){
+  #navbar .nav{
+    font-size: 0.8rem;
+  }
+  #navbar .nav .nav-link{
+    padding: 6px 10px;
+    border-bottom-width: 3px;
+  }
 }
 
 
@@ -51,6 +84,7 @@
   background: #17a2b8;
   color: #dffbff;
   border-radius: 0 0 6px 6px;
+  font-family: serif;
 }
 
 

@@ -25,6 +25,8 @@
     <div class="app bg-light py-md-5 py-3">
       <div class="container">
         <div class="bg-white rounded-lg shadow overflow-hidden">
+
+
           <header class="bg-info text-light py-3">
             <div class="container">
               <div class="row">
@@ -45,104 +47,239 @@
           <div id="navbar" class="bg-dark">
             <div class="row">
               <div class="col-lg-10 offset-lg-1">
-                <ul class="nav">
+                <ul class="nav nav-tabs">
                   <li class="nav-item">
-                    <button class="active">Home</button>
+                    <a class="nav-link active" data-toggle="tab" href="#home"><i class="fa fa-home"></i></a>
                   </li>
                   <li class="nav-item">
-                    <button>About</button>
+                    <a class="nav-link" data-toggle="tab" href="#stats"><i class="fa fa-pie-chart"></i> Stats</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#resources"><i class="fa fa-cubes"></i> Resources</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#notifications"><i class="fa fa-bell-o"></i> Notifications</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <!-- #navbar -->          
+          <!-- #navbar -->                  
 
 
-          <div class="app-body position-relative bg-white py-5 px-lg-0 px-3">
+          <div class="app-body bg-white py-5 px-lg-0 px-3">
             <div class="row">
               <div class="col-lg-10 offset-lg-1">
-                <form id="searchbar" class="mb-5">
-                  <div class="input-group">
-                    <select
-                      class="custom-select"
-                      id="selectStates"
-                      name="selectInp"
-                    ></select>
-                    <div class="input-group-append">
-                      <button class="btn btn-info px-md-5 px-2" type="submit">
-                        Search <i class="fa fa-search"></i>
-                      </button>
+
+
+
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="home">
+                    <div class="card mb-3 rounded-lg shadow-sm">
+                      <div class="card-body">
+                        <h3 class="text-dark ff-serif">Who We Are?</h3>
+                        <hr>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit labore rerum cumque distinctio sed porro possimus quos enim et officia qui sint sunt itaque voluptate odio, culpa ut. Quaerat, rerum.</p>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Unde quas, aspernatur doloribus dolor, labore illum quod recusandae quidem veniam. Sapiente natus dignissimos, nostrum voluptates eos perferendis mollitia beatae, laudantium omnis veniam ipsum, aliquam, ea quae.</p>
+                      </div>
+                    </div>
+                    <!-- card mb-3 -->
+                    <div class="card rounded-lg shadow-sm">
+                      <div class="card-body">
+                        <h3 class="text-dark ff-serif">How To Use This Website?</h3>
+                        <hr>
+                        <p class="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex ut adipisci omnis incidunt nisi non, dolores? Voluptatibus aspernatur tenetur vero :</p>
+                        <ul class="text-secondary">
+                          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                          <li>Lorem, ipsum dolor sit amet, consectetur adipisicing.</li>
+                          <li>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Inventore numquam eveniet, excepturi.</li>
+                          <li>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Rerum, mollitia.</li>
+                          <li>Lorem ipsum dolor sit, amet consectetur.</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
-                </form>
-                <!-- #searchbar -->
-                <div
-                  id="covid-tracker"
-                  class="mb-4 p-md-4 p-3 bg-light border rounded-lg shadow-sm position-relative"
-                >
-                  <p class="m-0 p-2 text-secondary text-center">
-                    <b>Select</b> a state from the dropdown list ...
-                  </p>
-                </div>
-                <!-- #covid-tracker -->
-                <div
-                  id="covid-resources"
-                  class="p-md-4 py-4 px-0 bg-white border border-info rounded-lg shadow-sm position-relative"
-                >
-                  <div class="p-3">
-                    <h6 class="small text-uppercase">
-                      <b>How to use this website:</b>
-                    </h6>
-                    <hr />
-                    <ul class="small m-0 text-secondary list-unstyled">
-                      <li>
-                        1. Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit.
-                      </li>
-                      <li>
-                        2. Lorem ipsum, dolor sit amet, consectetur adipisicing.
-                      </li>
-                      <li>
-                        3. Lorem, ipsum dolor sit amet consectetur, adipisicing
-                        elit. Illum rem, veritatis accusamus.
-                      </li>
-                      <li>
-                        4. Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Accusantium.
-                      </li>
-                    </ul>
+                  <!-- HOME tab-pane fade -->
+
+                  <div class="tab-pane fade" id="stats">
+                    <form id="stats-form" class="mb-5">
+                      <div class="input-group">
+                        <select class="custom-select" name="selectInp"></select>
+                        <div class="input-group-append">
+                          <button class="btn btn-info px-md-5 px-2" type="submit">Search <i class="fa fa-search"></i></button>
+                        </div>
+                      </div>
+                    </form>
+                    <!-- #stats-form -->
+
+                    <div id="states-tracker" class="mb-4 p-md-4 p-3 bg-light border border-info rounded-lg shadow-sm position-relative">
+                      <p class="m-0 p-2 text-secondary text-center">
+                        <b>Select</b> a state from the dropdown list ...
+                      </p>
+                    </div>
+                    <!-- #states-tracker -->
+
+                    <div id="district-tracker" class="p-md-4 py-4 px-0 bg-white border border-info rounded-lg shadow-sm position-relative">
+                      <!-- fun loading stuff card -->
+                      <div class="card border-0 bg-transparent">
+                        <div class="card-body">
+                          <div class="wrapper">
+                            <p class="text-center">
+                              <span class="d-inline-block rounded-lg w-50 py-4 animate"></span>
+                            </p>
+                            <p class="py-3 animate" style="height: 30px"></p>
+                            <p class="d-flex mb-0">
+                              <span class="m-2 d-block py-2 animate" style="flex: 1;"></span>
+                              <span class="m-2 d-block py-2 animate" style="flex: 1;"></span>
+                              <span class="m-2 d-block py-2 animate" style="flex: 1;"></span>
+                              <span class="m-2 d-block py-2 animate" style="flex: 1;"></span>
+                            </p>
+                            <p class="d-flex m-0">
+                              <span class="m-2 d-block py-2 animate" style="flex: 1;"></span>
+                              <span class="m-2 d-block py-2 animate" style="flex: 1;"></span>
+                              <span class="m-2 d-block py-2 animate" style="flex: 1;"></span>
+                              <span class="m-2 d-block py-2 animate" style="flex: 1;"></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- card -->
+                    </div>
+                    <!-- #district-tracker -->
                   </div>
+                  <!-- STATS tab-pane fade -->
+
+                  <div class="tab-pane fade" id="resources">
+                    <div id="med-colleges" class="mb-4 p-md-4 py-4 px-0 bg-white border border-info rounded-lg shadow-sm position-relative">
+                      <div class="heading position-absolute w-100 d-flex justify-content-center">
+                        <h5 class="heading-text py-2 px-4">Hospital - Medical Colleges</h5>
+                      </div>
+                      <table class="table table-bordered table-hover table-responsive-xl w-100 small">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th>State</th>
+                            <th>Name of Hospital</th>
+                            <th>City</th>
+                            <th>Ownership</th>
+                            <th>Admission Capacity</th>
+                            <th>Hospital beds</th>
+                          </tr>
+                        </thead>
+                        <tfoot class="thead-dark">
+                          <tr>
+                            <th>State</th>
+                            <th>Name of Hospital</th>
+                            <th>City</th>
+                            <th>Ownership</th>
+                            <th>Admission Capacity</th>
+                            <th>Hospital beds</th>
+                          </tr>
+                        </tfoot>
+                      </table>
+                    </div>
+                    <!-- #med-colleges -->
+
+                    <div id="hospital-beds" class="mb-4 p-md-4 py-4 px-0 bg-white border border-info rounded-lg shadow-sm position-relative">
+                      <div class="heading position-absolute w-100 d-flex justify-content-center">
+                        <h5 class="heading-text py-2 px-4">Hospital - Beds Details</h5>
+                      </div>
+                      <table class="table table-bordered table-hover table-responsive-xl w-100 small">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th>State</th>
+                            <th>Rural Hospitals</th>
+                            <th>Rural Beds</th>
+                            <th>Urban Hospitals</th>
+                            <th>Urban Beds</th>
+                            <th>Total Hospitals</th>
+                            <th>Total Beds</th>
+                            <th>As On</th>
+                          </tr>
+                        </thead>
+                        <tfoot class="thead-dark">
+                          <tr>
+                            <th>State</th>
+                            <th>Rural Hospitals</th>
+                            <th>Rural Beds</th>
+                            <th>Urban Hospitals</th>
+                            <th>Urban Beds</th>
+                            <th>Total Hospitals</th>
+                            <th>Total Beds</th>
+                            <th>As On</th>
+                          </tr>
+                        </tfoot>
+                      </table>
+                    </div>
+                    <!-- #hospitals -->
+
+                    <div id="contacts" class="mb-4 p-md-4 py-4 px-0 bg-white border border-info rounded-lg shadow-sm position-relative">
+                      <div class="heading position-absolute w-100 d-flex justify-content-center">
+                        <h5 class="heading-text py-2 px-4">Important Contacts</h5>
+                      </div>
+                      <table class="table table-bordered table-hover table-responsive-xl w-100 small">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th>State</th>
+                            <th>Emergency Helpline Number</th>
+                          </tr>
+                        </thead>
+                        <tfoot class="thead-dark">
+                          <tr>
+                            <th>State</th>
+                            <th>Emergency Helpline Number</th>
+                          </tr>
+                        </tfoot>
+                      </table>
+                    </div>
+                    <!-- #contacts -->
+                  </div>
+                  <!-- RESOURCES tab-pane fade -->
+
+                  <div class="tab-pane fade" id="notifications">
+                    <div class="mb-4 p-md-4 py-4 px-0 bg-white border border-info rounded-lg shadow-sm position-relative">
+                      <div class="heading position-absolute w-100 d-flex justify-content-center">
+                        <h5 class="heading-text py-2 px-4">Important Notices</h5>
+                      </div>
+                      <table class="table table-bordered table-hover table-responsive-xl w-100 small">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th><i class="fa fa-slack"></i></th>
+                            <th>Date</th>
+                            <th>Title</th>
+                            <th>Link</th>
+                          </tr>
+                        </thead>
+                        <tfoot class="thead-dark">
+                          <tr>
+                            <th><i class="fa fa-slack"></i></th>
+                            <th>Date</th>
+                            <th>Title</th>
+                            <th>Link</th>
+                          </tr>
+                        </tfoot>
+                      </table>
+                    </div>
+                  </div>
+                  <!-- NOTIFICATIONS tab-pane fade -->
                 </div>
-                <!-- #covid-resources -->
+                <!-- tab-content -->
               </div>
+              <!-- col-lg-10 offset-lg-1 -->
             </div>
             <!-- row -->
-
-            <!-- about Page -->
-            <div id="abt-page" class="px-md-5 px-0">
-              <div class="container">
-                <h2 class="text-secondary font-weight-bold">ABOUT <span class="text-info">US</span></h2>
-                <hr>
-                <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Unde sint reiciendis accusamus in fugiat esse magni ratione pariatur. Cupiditate vero rerum, quod, quibusdam modi nostrum facere! Voluptas eaque esse veniam nihil est, ut, iure ea, praesentium fugiat quia explicabo voluptatum error. Ipsam ducimus at officiis earum debitis doloribus accusantium, ullam.</p>
-                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Fuga obcaecati non consectetur, deserunt sint in ipsam, tenetur. Necessitatibus mollitia voluptates ipsam sapiente ullam eligendi! Iusto voluptate, praesentium sapiente, nam animi aut, numquam quae necessitatibus quis eaque deleniti culpa rem natus, fuga libero. Maiores fugit quidem natus minima eius numquam, amet expedita sunt provident facere, ratione excepturi est officiis architecto dicta ullam corrupti voluptatem, possimus placeat itaque sapiente. Laudantium exercitationem eius fuga similique id, deleniti autem magnam blanditiis reprehenderit quisquam expedita.</p>
-                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Fuga obcaecati non consectetur, deserunt sint in ipsam, tenetur. Necessitatibus mollitia voluptates ipsam sapiente ullam eligendi! Iusto voluptate, praesentium sapiente, nam animi aut, numquam quae necessitatibus quis eaque deleniti culpa rem natus, fuga libero. Maiores fugit quidem natus minima eius numquam, amet expedita sunt provident facere, ratione excepturi est officiis architecto dicta ullam corrupti voluptatem, possimus placeat itaque sapiente. Laudantium exercitationem eius fuga similique id, deleniti autem magnam blanditiis reprehenderit quisquam expedita.</p>
-                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Fuga obcaecati non consectetur, deserunt sint in ipsam, tenetur. Necessitatibus mollitia voluptates ipsam sapiente ullam eligendi! Iusto voluptate, praesentium sapiente, nam animi aut, numquam quae necessitatibus quis eaque deleniti culpa rem natus, fuga libero. Maiores fugit quidem natus minima eius numquam, amet expedita sunt provident facere, ratione excepturi est officiis architecto dicta ullam corrupti voluptatem, possimus placeat itaque sapiente. Laudantium exercitationem eius fuga similique id, deleniti autem magnam blanditiis reprehenderit quisquam expedita.</p>
-                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Fuga obcaecati non consectetur, deserunt sint in ipsam, tenetur. Necessitatibus mollitia voluptates ipsam sapiente ullam eligendi! Iusto voluptate, praesentium sapiente, nam animi aut, numquam quae necessitatibus quis eaque deleniti culpa rem natus, fuga libero. Maiores fugit quidem natus minima eius numquam, amet expedita sunt provident facere, ratione excepturi est officiis architecto dicta ullam corrupti voluptatem, possimus placeat itaque sapiente. Laudantium exercitationem eius fuga similique id, deleniti autem magnam blanditiis reprehenderit quisquam expedita.</p>
-              </div>
-            </div>
-            <!-- about Page -->
-
           </div>
           <!-- app-body -->
         </div>
+        <!-- bg-white rounded-lg shadow overflow-hidden -->
       </div>
+      <!-- container -->
     </div>
+    <!-- app -->
 
     <footer class="bg-dark py-4">
       <div class="container">
         <p class="m-0 text-center text-secondary small">
-          Copyright &copy; 2021 | <b><i>COV RESCUE</i></b>
+          Copyright &copy; 2021 | <span class="font-weight-bold text-light">COV RESCUE</span>
         </p>
       </div>
     </footer>

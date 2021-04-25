@@ -1,0 +1,28 @@
+<script>
+
+  
+  // --- fetching COVID Resource ----
+  let covidRes;
+  $.get("./data/covidResource.json", function (data) {
+    covidRes = data;
+  });
+
+
+  // --- Initialize the Datatable ---
+  let tableContent = `<div class="heading position-absolute w-100 d-flex justify-content-center"><h5 class="heading-text py-2 px-4">Resources</h5></div><table class="table table-bordered table-hover table-responsive-xl w-100 small"><thead class="thead-dark"><tr><th>City</th><th class="text-nowrap">Hospital Beds</th><th>Oxygen</th><th class="text-nowrap">Remedesivir / Tocilizum</th><th>Plasma</th><th>Sources</th></tr></thead><tfoot class="thead-dark"><tr><th>City</th><th>Hospital Beds</th><th>Oxygen</th><th>Remedesivir / Tocilizum</th><th>Plasma</th><th>Sources</th></tr></tfoot></table>`;
+
+  $("#covid-resources").html(tableContent);
+
+  $("#covid-resources table").DataTable({
+    data: covidRes.data[state],
+    columns: [
+      { data: "city" },
+      { data: "hospital_beds" },
+      { data: "oxygen" },
+      { data: "remedesivir_tocilizum" },
+      { data: "plasma" },
+      { data: "sources" },
+    ],
+  });
+
+</script>
